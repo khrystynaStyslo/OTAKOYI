@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/OTAKOYI/static/css/main.9a7169f8.chunk.css",
+    "main.js": "/OTAKOYI/static/js/main.3df537c7.chunk.js",
+    "main.js.map": "/OTAKOYI/static/js/main.3df537c7.chunk.js.map",
+    "runtime~main.js": "/OTAKOYI/static/js/runtime~main.c905b6df.js",
+    "runtime~main.js.map": "/OTAKOYI/static/js/runtime~main.c905b6df.js.map",
+    "static/css/2.ff9ea1f9.chunk.css": "/OTAKOYI/static/css/2.ff9ea1f9.chunk.css",
+    "static/js/2.cefd25b8.chunk.js": "/OTAKOYI/static/js/2.cefd25b8.chunk.js",
+    "static/js/2.cefd25b8.chunk.js.map": "/OTAKOYI/static/js/2.cefd25b8.chunk.js.map",
+    "index.html": "/OTAKOYI/index.html",
+    "precache-manifest.7230c3be5a7fb0616eefd57be86f85c0.js": "/OTAKOYI/precache-manifest.7230c3be5a7fb0616eefd57be86f85c0.js",
+    "service-worker.js": "/OTAKOYI/service-worker.js",
+    "static/css/2.ff9ea1f9.chunk.css.map": "/OTAKOYI/static/css/2.ff9ea1f9.chunk.css.map",
+    "static/css/main.9a7169f8.chunk.css.map": "/OTAKOYI/static/css/main.9a7169f8.chunk.css.map"
+  }
+}
