@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { ExchangeRatePage } from './ExchangeRatePage';
-import { getInputDate, getArchiveDataFromApi } from '../../store';
+import { getInputDate, getArchiveDataFromApi } from '../../store/actionCreators';
 
 const mapDispatch2Props = dispatch => ({
   getArchiveDataFromApi: (value) => dispatch(getArchiveDataFromApi(value)),
@@ -12,6 +12,11 @@ function mapState2Props(state) {
     baseExchangeRate: state.baseExchangeRate,
     exchangeRate: state.exchangeRate,
     date: state.date,
+    isLoading: state.isLoading,
+    isLoaded: state.isLoaded,
+    isLoadingArchive: state.isLoadingArchive,
+    isLoadedArchive: state.isLoadedArchive,
+    hasError: state.hasError,
   };
 }
 

@@ -1,14 +1,16 @@
 import { connect } from 'react-redux';
 import { App } from './App';
-import { getDataFromApi } from '../../store';
+import { getDataFromApi, loadDataRequest } from '../../store/actionCreators';
 
 const mapDispatch2Props = dispatch => ({
   getDataFromApi: () => dispatch(getDataFromApi()),
+  loadDataRequest: () => dispatch(loadDataRequest()),
 });
 
 function mapState2Props(state) {
   return {
-    exchangeRate: state.exchangeRate,
+    baseExchangeRate: state.baseExchangeRate,
+    isLoading: state.isLoading,
   };
 }
 

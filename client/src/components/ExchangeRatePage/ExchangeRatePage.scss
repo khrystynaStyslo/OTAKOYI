@@ -1,0 +1,21 @@
+.exchange_page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.archive_rate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.archive_table {
+  margin: 10px 0;
+}
+
+.spinner-archive {
+  text-align: center;
+  padding: 15px;
+  margin: 20px;
+}
