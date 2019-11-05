@@ -8,11 +8,15 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "gh-pages": "^2.1.1",
+    "react": "^16.8.6",
+    "react-scripts": "3.0.1",
     "node-fetch": "^2.6.0",
     "sass": "^1.23.3"
   },
   "devDependencies": {},
   "scripts": {
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/khrystynaStyslo/OTAKOYI/issues"
   },
-  "homepage": "https://khrystynastyslo.github.io/OTAKOYI/"
+  "homepage": "https://khrystynastyslo.github.io/OTAKOYI"
 }
